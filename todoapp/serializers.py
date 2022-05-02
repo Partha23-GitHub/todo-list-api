@@ -6,6 +6,5 @@ class TODOSerializer(serializers.ModelSerializer):
 
     class Meta:
         model=TODO
-        fields="__all__"
-        #fields=['title','description']
+        fields=['title','description']
         #exclude=['created_on','is_active']
